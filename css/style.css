@@ -107,10 +107,7 @@
 .slide_next{position: absolute;bottom: 39px;right: 0;z-index: 3;}
 .slide_prev{position: absolute;bottom: 39px;right: 70px;z-index: 3;}
 
-.s.swiper-pagination-fraction, 
-.swiper-pagination-custom, 
-.swiper-horizontal > .swiper-pagination-bullets, 
-.swiper-pagination-bullets.swiper-pagination-horizontal{position: absolute;bottom: 39px;left: 770px;z-index: 3;}
+.swiper-pagination-fraction{position: absolute;bottom: 39px;left: 770px;z-index: 3;}
 .swiper-pagination-current{font-size: 30px;font-weight: 700;color: #fff;}
 .swiper-pagination-horizontal,
 .swiper-pagination-total{font-size: 20px;font-weight: 700;color:#fff;}

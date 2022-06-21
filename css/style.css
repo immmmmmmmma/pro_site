@@ -152,8 +152,8 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 
 
 
-.secWrap{width: 1920px;height: 1300px;}
-.sec01{width: 1280px; height: 832px;padding-top: 110px;}
+.secWrap{width: 1920px;height: 1300px;margin: 0 auto;}
+.sec01{width: 1280px; height: 832px;padding-top: 110px;margin: 0 auto;}
 .sec01>.layOut{width: 1280px; height: 116px;margin-bottom: 32px;}
 .sec01 h2{font-size: 40px;text-align: center;display: inline-block;}
 .sec01 h2>span{font-size: 12px;letter-spacing: 0.4em;display: block;font-weight: 500;}
@@ -176,7 +176,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .slideWrap .secImg{width: 588px;height: 433px;float: left;}
 .slideWrap img{height: 100%;}
 
-.sec02 .layOut{width: 1280px;height: 376px;}
+.sec02 .layOut{width: 1280px;height: 376px;margin: 0 auto;}
 .sec02 li{float: left;width: 25%;height: 376px;border-right: solid 1px #d2d6d8;background-repeat: no-repeat;background-position: center top;}
 
 .sec02 li:nth-child(1){background-image: url(../images/icon1.png);border-left: 1px solid #d2d6d8;}

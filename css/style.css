@@ -1,12 +1,12 @@
 @charset "utf-8";
 body{font-family: 'Noto Sans KR', sans-serif;}
 
-.secWrap{width: 1920px;height: 1300px;background-color: aqua;}
-.sec01{height: 832px;background-color: pink;padding-top: 110px;}
-.sec01>.layOut{width: 1280px; height: 116px;background-color: orange;margin-bottom: 32px;}
+.secWrap{width: 1920px;height: 1300px;}
+.sec01{height: 832px;padding-top: 110px;}
+.sec01>.layOut{width: 1280px; height: 116px;margin-bottom: 32px;}
 .sec01 h2{font-size: 40px;text-align: center;display: inline-block;}
 .sec01 h2>span{font-size: 12px;letter-spacing: 0.4em;display: block;font-weight: 500;}
-.sec01 ul{height: 54px;background-color: gray;margin-top: -15px;}
+.sec01 ul{height: 54px;;margin-top: -15px;}
 .sec01 li{float: right;border-top: 1px solid #00a9e0;margin-left: 21px;}
 .sec01 li>a{color: #666;line-height: 54px;}
 
@@ -23,8 +23,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .slide2 .secImg{width: 588px;height: 433px;float: left;}
 .slide2 img{height: 100%;}
 
-.sec02{background-color: #00a9e0;}
-.sec02 .layOut{width: 1280px;height: 376px;background-color: orange;}
+.sec02 .layOut{width: 1280px;height: 376px;}
 .sec02 li{float: left;width: 25%;height: 376px;border-right: solid 1px #d2d6d8;background-repeat: no-repeat;background-position: center top;}
 
 .sec02 li:nth-child(1){background-image: url(../images/icon1.png);border-left: 1px solid #d2d6d8;}

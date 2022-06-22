@@ -8,7 +8,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .header{
     flex-direction: row;
     display: flex;justify-content: space-between;align-items: center;width: 100%;margin: 0 auto;;height: 132px;
-    position: absolute;
+    position: absolute;min-width: 1280px;
 }
 .header h1{z-index: 2;padding: 10px 0 0 70px;}
 .nav_wrap{z-index: 2;padding: 52px 0;}
@@ -77,14 +77,14 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .scroll:after{
     content:"";display: block;
     width: 6px;height: 11px;background: #fff;
-    border-radius: 50%;
+    border-radius: 3px;
     position: absolute;
     left: 8px;top:7px;
 }
-.scroll p{
+.visual>p{
     color: #fff;font-size:13px;font-weight: 700;
-    position: absolute;top: -43px; left:-12px;
-    text-align: center;
+    position: absolute;top:calc( 50% + 225px);left: calc( 50% - 32px);  
+    text-align: center;z-index: 999;
 }
 @keyframes circle{
     0%{top: 10px;}
@@ -102,7 +102,10 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .txt_wrap strong{
     position: absolute;left:220px;top: 340px;
     animation-duration:3s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 1s; */
     font-size: 80px;font-weight: 500;letter-spacing: -4px;line-height: 104px;
+    opacity: 0;
 }
 .txt_wrap p{
     position: absolute;left:220px;top: 560px;
@@ -112,7 +115,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .slide_next{position: absolute;bottom: 39px;right: 0;z-index: 3;}
 .slide_prev{position: absolute;bottom: 39px;right: 70px;z-index: 3;}
 
-.swiper-pagination-fraction{position: absolute;bottom: 39px;left: 770px;z-index: 3;}
+.swiper-pagination-fraction{width: 80px;position: absolute;bottom: 39px;left: 1660px;z-index: 3;}
 .swiper-pagination-current{font-size: 30px;font-weight: 700;color: #fff;}
 .swiper-pagination-horizontal,
 .swiper-pagination-total{font-size: 20px;font-weight: 700;color:#fff;}
@@ -122,7 +125,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
     from{transform:translateY(100px);opacity: 0;}
     to{transform:translateY(0);opacity: 1;}
 }
-.slide_item.swiper-slide-active .txt_wrap p,.txt_wrap strong{animation-name:test1;}
+.slide_item.swiper-slide-active .txt_wrap p,.slide_item.swiper-slide-active .txt_wrap strong{animation-name:test1;}
 
 /* content */
 .content{position: relative;}

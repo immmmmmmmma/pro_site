@@ -159,7 +159,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 
 
 
-.secWrap{width: 1920px;height: 1300px;margin: 0 auto;}
+.secWrap{height: 1300px;margin: 0 auto;}
 .sec01{width: 1280px; height: 832px;padding-top: 110px;margin: 0 auto;}
 .sec01>.layOut{width: 1280px; height: 116px;margin-bottom: 32px;}
 .sec01 h2{font-size: 40px;text-align: center;display: inline-block;}

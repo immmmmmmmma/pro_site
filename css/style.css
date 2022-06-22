@@ -115,7 +115,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .slide_next{position: absolute;bottom: 39px;right: 0;z-index: 3;}
 .slide_prev{position: absolute;bottom: 39px;right: 70px;z-index: 3;}
 
-.swiper-pagination-fraction{width: 80px;position: absolute;bottom: 39px;left: 1660px;z-index: 3;}
+.swiper-pagination-fraction{width: 80px;position: absolute;bottom: 39px;left:calc( 90% - 50px);z-index: 2;}
 .swiper-pagination-current{font-size: 30px;font-weight: 700;color: #fff;}
 .swiper-pagination-horizontal,
 .swiper-pagination-total{font-size: 20px;font-weight: 700;color:#fff;}

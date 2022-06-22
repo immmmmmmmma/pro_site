@@ -229,7 +229,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 
 
 .company{
-    height: 150px;
+    height: 150px;min-width: 1280px;
     display: flex;justify-content: center;align-items: center;
 }
 .company img{position: absolute;}
@@ -240,7 +240,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 }
 .company>ul>li:last-child{margin-right: 0;}
 
-.footerWrap{height: 274px;background-color: #394553;padding: 40px 322px;}
+.footerWrap{height: 274px;background-color: #394553;padding: 40px 322px;min-width: 1280px;}
 .menu{float: right;}
 .menu li{float: left;position: relative; bottom: 50px;}
 .menu li a{color: #FFF;font-size: 14px; margin-right: 20px;}

@@ -30,7 +30,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 /* .navbar>ul>li:hover:after .gnb_list{background-color: #1F4975;} */
 .navbar>ul>li>a{display:flex;height: 100%;justify-content: center;align-items: center;}
 
-.submenu{display: none;position: absolute;height: 306px;z-index:2;background-color: #fff;width: 100%;}
+.submenu{display: none;position: absolute;height: 306px;z-index:2;background-color: #fff;width: 100%;left:0}
 .navbar>ul>li:hover .submenu{display: block;}
 .submenu li{float: left;}
 .submenu li a{
@@ -45,11 +45,12 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .submenu li:nth-child(1) p{font-size: 14px;letter-spacing: 0.21px;line-height: 21px;color: #888;}
 .submenu li:nth-child(1) img{padding: 20px 0;}
 
-.navbar>ul>li:nth-child(1) .submenu{left:0}
+
+/* .navbar>ul>li:nth-child(1) .submenu{left:0}
 .navbar>ul>li:nth-child(2) .submenu{left:0}
 .navbar>ul>li:nth-child(3) .submenu{left:0}
 .navbar>ul>li:nth-child(4) .submenu{left:0}
-.navbar>ul>li:nth-child(5) .submenu{left:0}
+.navbar>ul>li:nth-child(5) .submenu{left:0} */
 
 .gnb_wrap{flex-direction: row;display: flex;z-index: 2;}
 .site_map{
@@ -82,7 +83,8 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 }
 .scroll p{
     color: #fff;font-size:13px;font-weight: 700;
-    position: absolute;top: -40px; left:-11px;
+    position: absolute;top: -43px; left:-12px;
+    text-align: center;
 }
 @keyframes circle{
     0%{top: 10px;}
